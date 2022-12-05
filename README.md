@@ -5,6 +5,7 @@
     Criação de módulos: ng generate module nome_modulo
     Criação de interfaces: ng generate interface nome_interface
     Colocar o projeto no ar: ng serve --open
+    Iniciar API fake json-server --watch db.json
 
 # App
 
