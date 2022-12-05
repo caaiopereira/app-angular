@@ -1,0 +1,68 @@
+<div class="container">
+    <h5>*ngIf</h5>
+        <div *ngIf="!mostrarFrase">
+            Clique para mostrar a frase
+        </div>
+        <div *ngIf="mostrarFrase">
+            {{frase}}
+        </div>
+        <br>
+        <button class="btn btn-primary" (click)="onMostrarFrase()">Clique</button>
+    
+    <div>
+        <br>
+        <h5>*ngFor</h5>
+            <p>Clique para mostrar os cursos</p>
+        <div *ngIf="mostrarCurso">
+            <ul>
+                <li *ngFor="let curso of cursos, let i = index">
+                    {{curso}}
+                </li>
+            </ul>
+        </div>
+        <button class="btn btn-primary" (click)="onMostrarCurso()">Clique</button>
+    </div>
+
+    <div>
+        <br>
+        <h5>Data Bind</h5>
+            <input type="text"
+            [ngModel]="nome"
+            (ngModelChange)="nome = $event"
+            />
+       <p>Você digitou: {{nome}}</p> 
+    </div>
+
+    <div>
+        <h5>Event Bind</h5>
+        <p>Clique no Botão</p>
+        <button class="btn btn-primary" (click)="botaoClicado()">Clique</button>
+    </div>
+
+
+    <div>
+        <br>
+        <h5 style="text-align: center;">JSON-SERVER</h5>
+        <hr>
+        <table class="table table-hover table-striped">
+            <thead style="font-weight: bolder;">
+                <td>#</td>
+                <td>Nome</td>
+                <td>Audiência</td>
+                <td>Origem</td>
+            </thead>
+
+            <tbody>
+                <tr *ngFor="let exibir of esportes ">
+                    <td>{{exibir.id}}</td>
+                    <td>{{exibir.nome}}</td>
+                    <td>{{exibir.audiencia}}</td>
+                    <td>{{exibir.origem}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+</div>
+
