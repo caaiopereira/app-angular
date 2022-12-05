@@ -1,3 +1,11 @@
+# Comandos
+
+    Criação do projeto:  ng new nome_projeto
+    Criação de componentes: ng generate component nome_componente
+    Criação de módulos: ng generate module nome_modulo
+    Criação de interfaces: ng generate interface nome_interface
+    Colocar o projeto no ar: ng serve --open
+
 # App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.2.
