@@ -5,7 +5,11 @@
     Criação de módulos: ng generate module nome_modulo
     Criação de interfaces: ng generate interface nome_interface
     Colocar o projeto no ar: ng serve --open
-    Iniciar API fake json-server --watch db.json
+    Iniciar API: json-server --watch "nome do banco" .json
+    Instalar o json-server: npm install -g json-server
+    Instalar Angular: npm install -g @angular/cli
+    Instalar Módulos (node_modules): npm install
+    Clonar projeto do github via git: git init, git clone "link do projeto"
 
 # App
 
