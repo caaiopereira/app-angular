@@ -4,6 +4,7 @@
     Criação de componentes: ng generate component nome_componente
     Criação de módulos: ng generate module nome_modulo
     Criação de interfaces: ng generate interface nome_interface
+    Criação de serviços: ng generate service nome_servico
     Colocar o projeto no ar: ng serve --open
     Iniciar API: json-server --watch "nome do banco" .json
     Instalar o json-server: npm install -g json-server
