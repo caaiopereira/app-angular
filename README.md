@@ -9,7 +9,7 @@
     Instalar o json-server: npm install -g json-server
     Instalar Angular: npm install -g @angular/cli
     Instalar Módulos (node_modules): npm install
-    Clonar projeto do github via git: git init, git clone "link do projeto"
+    Clonar projeto do github via git (cmd node.js): git init, git clone "link do projeto" .git
 
 # App
 
