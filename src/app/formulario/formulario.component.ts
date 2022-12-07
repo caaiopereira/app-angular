@@ -1,19 +1,26 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { EsportesService } from '../esportes.service';
 
 @Component({
   selector: 'app-formulario',
   templateUrl: './formulario.component.html'
 })
+
 export class FormularioComponent implements OnInit{
 
-  
-  constructor(){}
+
+  constructor(private banco: EsportesService){ }
 
   ngOnInit(){
     }
 
-    cadastrar(form:any){
-      console.log(form.value);
+    submit(valor:any){
+      try {
+        this.banco.postEsportes(valor.value);
+      }
+      finally {
+        location.reload();
+      }   
     }
 
 }

@@ -52,15 +52,18 @@
                 <td>Origem</td>
             </thead>
 
-            <tbody>
-                <tr *ngFor="let exibir of esportes ">
+            <tbody *ngFor="let exibir of esportes ">
+                <tr>
                     <td>{{exibir.id}}</td>
                     <td>{{exibir.nome}}</td>
                     <td>{{exibir.audiencia}}</td>
                     <td>{{exibir.origem}}</td>
+                    <button class="btn btn-danger container" style="padding-right: 5px;" (click)="deletar(exibir.id)"><b>Deletar</b></button>
                 </tr>
-            </tbody>
+            </tbody>  
+             
         </table>
+        
     </div>
 
 

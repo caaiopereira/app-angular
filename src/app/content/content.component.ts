@@ -17,6 +17,7 @@ export class ContentComponent implements OnInit{
   nome: string = '';
 
   constructor(private _esportesService: EsportesService){}
+
   public esportes: Esportes[] = [];
 
   ngOnInit() {
@@ -47,5 +48,14 @@ export class ContentComponent implements OnInit{
 
   botaoClicado(){
     alert('Botão clicado');
+  }
+
+  deletar(id: number){
+    try {
+      this._esportesService.delEsportes(id);
+    }
+    finally {
+      location.reload();
+    }  
   }
 }

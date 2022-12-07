@@ -1,8 +1,28 @@
 {
   "esportes": [
-      { "id": 1, "nome": "Futebol", "audiencia": "4,5 Bilhões" ,"origem": "Inglaterra"},
-      { "id": 2, "nome": "Tênis", "audiencia": "81 Milhões" ,"origem": "França"},
-      { "id": 3, "nome": "Basquete", "audiencia": "1 Bilhão" ,"origem": "EUA"},
-      { "id": 4, "nome": "Golfe", "audiencia": "450 Milhões" ,"origem": "Escócia"}
+    {
+      "id": 1,
+      "nome": "Futebol",
+      "audiencia": "4,5 Bilhões",
+      "origem": "Inglaterra"
+    },
+    {
+      "id": 2,
+      "nome": "Tênis",
+      "audiencia": "81 Milhões",
+      "origem": "França"
+    },
+    {
+      "id": 3,
+      "nome": "Basquete",
+      "audiencia": "1 Bilhão",
+      "origem": "EUA"
+    },
+    {
+      "id": 4,
+      "nome": "Golfe",
+      "audiencia": "450 Milhões",
+      "origem": "Escócia"
+    }
   ]
 }

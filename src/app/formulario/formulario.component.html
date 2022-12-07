@@ -1,16 +1,20 @@
 <div class="container">
     <br>
     <h5 class="text-center">Formulário (Data Driven)</h5>
-    <form>
+    <form #form="ngForm" (ngSubmit)="submit(form)" >
         <div class="form-group mt-3">
-            <label for="">Informe o seu nome: </label>
-            <input class="form-control" type="text">
+            <label for="">Nome</label>
+            <input class="form-control" type="text" name="nome" ngModel>
         </div>    
     
         <div class="form-group mt-3">
-    
-            <label for="">Informe o seu email: </label>
-            <input class="form-control" type="email">
+            <label for="">Audiência</label>
+            <input class="form-control" type="text" name="audiencia" ngModel>
+        </div>
+
+        <div class="form-group mt-3">
+            <label for="">Origem</label>
+            <input class="form-control" type="text" name="origem" ngModel>
         </div> 
         <button class="btn btn-primary mt-3" type="submit">Enviar</button>
     </form>
