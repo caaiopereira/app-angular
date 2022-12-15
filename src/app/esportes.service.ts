@@ -14,7 +14,7 @@ export class EsportesService {
 
   constructor(private http: HttpClient) { }
 
-  readonly API = "http://localhost:3000/esportes/";
+  readonly API = "https://esportes-json.vercel.app/esportes/";
 
   getEsportes() : Observable<Esportes[]> {
     return this.http.get<Esportes[]>(this.API);
