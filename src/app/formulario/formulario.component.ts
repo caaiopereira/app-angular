@@ -21,7 +21,7 @@ export class FormularioComponent implements OnInit{
       finally {
         setTimeout(function(){
         window.location.reload();
-        }, 1000);
+        }, 900);
       }   
     }
 
