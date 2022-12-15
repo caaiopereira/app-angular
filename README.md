@@ -16,7 +16,8 @@
         Feature Module (Módulo que declara os componentes)
         Shared Module (Módulo que compartilha outros módulos entre os componentes)
         Core Modulo (Modulo raiz, componentes módulos que serão usados em toda a página)
-        Configurar a aplicação para utilizar um serviço de banco de dados que consulte, cadastre e exclua dados na Web API.
+        Configurar a aplicação para utilizar um serviço de banco de dados que
+        consulte, cadastre e exclua dados na Web API.
 
 
 # Comandos
