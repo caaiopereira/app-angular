@@ -55,7 +55,9 @@ export class ContentComponent implements OnInit{
       this._esportesService.delEsportes(id);
     }
     finally {
-      location.reload();
+      setTimeout(function(){
+        window.location.reload();
+        }, 900);
     }  
   }
 }
