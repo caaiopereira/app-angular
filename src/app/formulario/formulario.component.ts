@@ -19,7 +19,9 @@ export class FormularioComponent implements OnInit{
         this.banco.postEsportes(valor.value);
       }
       finally {
-        location.reload();
+        setTimeout(function(){
+        window.location.reload();
+        }, 5000);
       }   
     }
 
