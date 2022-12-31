@@ -9,7 +9,7 @@
     - Direticas: ngFor e ngIf
     - Data Binding {{}} e [ ]
     - Event  Binding 
-    - Json-Server
+    - Json-Server.
     - Formulário (Data Driven)
     
     Módulos:
